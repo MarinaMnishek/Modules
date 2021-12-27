@@ -1,0 +1,15 @@
+.invisible {
+    display: none;
+}
+.visible {
+    display: block;
+}
+input {
+    margin-bottom: 20px;
+}
+#timer {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
