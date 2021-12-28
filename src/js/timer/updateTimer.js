@@ -1,6 +1,8 @@
 import {printTimer, printUpdateTimer} from './printTimer.js';
 import { Howl } from 'howler';
 // import 'https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js'
+// import melody from '../../files/13c9a55c268e643.mp3'
+
 const timer = document.getElementById('timer');
 const stopTimer = document.getElementById('stopTimer');
 
@@ -39,6 +41,7 @@ export const updateTimer = () => {
       clearInterval(timerId)
       let sound = new Howl({
         src: ['https://assets.codepen.io/21542/howler-push.mp3']
+
       });
       sound.play();
 
