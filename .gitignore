@@ -1,2 +1,7 @@
 /node_modules/
 .idea
+/src/media/audio/
+/src/media/video/
+/dist/media/audio/
+/dist/media/video/
+
